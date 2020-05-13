@@ -1,0 +1,175 @@
+/* ============================BEGIN COMMON STYLES============================== */
+
+
+body {
+    line-height: 1;
+    font-family: 'Gotham', Arial, Helvetica, sans-serif !important;
+    color      : #425363;
+}
+
+.btn:focus,
+input:focus {
+    outline: none;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.container {
+    height: 100vh;
+}
+
+article :nth-child(1) {
+    height: 20vh;
+}
+
+main {
+    height: 60vh;
+}
+
+footer {
+    height: 20vh;
+}
+
+h1 {
+    font-size    : 1.36em;
+    line-height  : 146%;
+    font-weight  : 600;
+    margin-bottom: 0;
+    padding-top  : 10vh;
+}
+
+
+h2 {
+    font-size      : 1.2rem;
+    font-weight    : 400;
+    text-decoration: underline;
+    margin         : 0;
+}
+
+h3 {
+    font-size    : 1.4rem;
+    font-weight  : 600;
+    margin-bottom: 26px;
+}
+
+#answerJoke {
+    margin-top   : 10vh;
+    font-size    : 2.1rem;
+    padding-right: 20vw;
+    color        : #e73845;
+    line-height  : 136%;
+}
+
+.light {
+    font-weight: 300;
+    font-style : normal;
+    line-height: 136%;
+}
+
+.separatorRed {
+    width           : 56px;
+    height          : 4px;
+    margin          : 22px 0;
+    background-color: #e73845;
+    border-top      : transparent;
+    border          : none;
+}
+
+
+h1 {
+    font-weight: 600;
+}
+
+.btnRounded,
+.btnPopUp {
+    font-family       : 'Gotham', Arial, Helvetica, sans-serif !important;
+    border            : 1px solid #425363;
+    color             : #425363;
+    font-size         : 0.86em;
+    cursor            : pointer;
+    box-shadow        : inset 0 0 0 0 #425363;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition   : ease-out 0.3s;
+    transition        : ease-out 0.3s;
+}
+
+
+.btnRounded {
+    height: 76px;
+    width : 100%;
+    font-size: 0.76rem;
+}
+
+.btnPopUp {
+    height    : 53px;
+    width     : 50%;
+    font-size : 0.76rem;
+    margin-top: 1.1rem;
+}
+
+.btnPopUp {
+    height    : 53px;
+    width     : 100%;
+    font-size : 0.76rem;
+    margin-top: 1.1rem;
+}
+
+.btnRounded,
+.btnPopUp {
+    border-radius: 69px;
+}
+
+.btnRounded:hover,
+.btnPopUp:hover {
+    box-shadow: inset 0 0 0 50px #425363;
+    color     : #FFF;
+}
+
+.incorrectBorder {
+    border: 2px solid #e73845 !important;
+}
+
+.incorrectText {
+    color: #e73845;
+}
+
+.inputOk {
+    border: 2px solid mediumspringgreen !important;
+    color : mediumspringgreen;
+}
+
+#issues {
+    font-size: 0.76em;
+    color    : #e73845;
+    ;
+}
+
+.even {
+    color: #e73845;
+}
+
+.dnone {
+    display: none !important;
+}
+
+.dblock {
+    display: inline-block;
+}
+
+/*@media screen and (min-width: 992px) and (max-width: 1450px) {*/
+@media screen and (min-width : 768px) {
+    .padRightM {
+        padding-right: 3rem;
+    }
+
+    .padLeftM {
+        padding-left: 3rem;
+    }
+
+    .padLarge {
+        padding: 0 8rem;
+    }
+}
