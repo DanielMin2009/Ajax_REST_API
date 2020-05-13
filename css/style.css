@@ -116,6 +116,10 @@ h1 {
     font-size : 0.76rem;
     margin-top: 1.1rem;
 }
+.btnPopUp:focus,
+.btnRounded:focus {
+    outline: none;
+} 
 
 .btnRounded,
 .btnPopUp {
@@ -173,3 +177,4 @@ h1 {
         padding: 0 8rem;
     }
 }
+
