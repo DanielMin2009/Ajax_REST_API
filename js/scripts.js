@@ -1,17 +1,17 @@
-const button = $('#getJokeBtn ');
+const jokeButton = $('#getJokeBtn ');
 
-button.click(function () {
+jokeButton.click(function () {
     $.ajax({
+        type: 'GET',
         dataType: 'json',
-        type: "GET",
         url: 'https://api.icndb.com/jokes/random',
-        success: function (result) {
-            $.each(result, function (index, element) {
-                $("#answerJoke").html(element.joke); // S'assigna el text que es vol.
+        success: function (data) {
+            $.each(data, function (i, item) { // L'índex s'ha de declarar perquè funcioni
+                $("#answerJoke").html(item.joke); 
             });
         },
         error: function () {
-            console.log("Sorry, The API is not working correctly");
+            console.log("Sorry, the API is not working correctly.");
         }
     });
 })
